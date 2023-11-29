@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/fonta/css/fontawesome.css" rel="stylesheet">
+    <link href="css/fonta/css/brands.css" rel="stylesheet">
+    <link href="css/fonta/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Webutvikling-Eksamen</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" id="logo"><img src="img/logo1.png" alt="Logo"></a>
+            <ol id="navtekst">
+                <a href="index.html">
+                    <h4>Home</h4>
+                </a>
+                <a href="products.html">
+                    <h4>Portfolio</h4>
+                </a>
+                <a href="about.html">
+                    <h4>About</h4>
+                </a>
+                <a href="about.html" id="contact">
+                    <h4>Contact</h4>
+                </a>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about">
+            <article class="about-boks">
+                <span>
+                    <span>Company name</span>
+                    <h4>About our Company</h4>
+                    <span id="company-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis nibh a ipsum pretium fermentum. Pellentesque porta mi libero, et fringilla ex 
+                        sodales ac. Sed accumsan turpis quis urna semper, in lacinia magna condimentum. Pellentesque id nulla id quam interdum gravida. Aliquam rhoncus tristique rutrum. 
+                        Integer dictum, sem in laoreet pretium, tortor sem interdum odio, sed eleifend odio nibh ac leo. In interdum consectetur odio eget auctor. Fusce malesuada 
+                        ligula tellus, eu congue eros vulputate eget. Cras aliquet lectus ac nisl tempus, vel feugiat justo facilisis. Vestibulum ante ipsum primis.</span>
+                    <br><a href="#contact-tittel">
+                        <button id="services-knapp">Get in touch with us</button>
+                    </a></br>
+                </span>
+            </article>
+        </section>
+        <h3 id="about-service-tittel">Our Services</h3>
+        <section class="about-our-services">
+            <span>
+                <i class="fa-solid fa-users"></i>
+                <h4>Branding</h4>
+                <p>Lorem ipsum Donec mattis libero et ex consectetur</p>
+            </span>
+            <span>
+                <i class="fa-solid fa-cloud-arrow-up"></i>
+                <h4>Branding</h4>
+                <p>Lorem ipsum Donec mattis libero et ex consectetur</p>
+            </span>
+            <span>
+                <i class="fa-solid fa-code"></i>
+                <h4>Branding</h4>
+                <p>Lorem ipsum Donec mattis libero et ex consectetur</p>
+            </span>
+            <span>
+                <i class="fa-solid fa-wifi"></i>
+                <h4>Branding</h4>
+                <p>Lorem ipsum Donec mattis libero et ex consectetur</p>
+            </span>
+        </section>
+        <section class="clients-logo">
+            <h3 id="clients-tittel">Some of our clients</h3>
+            <ul>
+                <li><img src="img/logo1.png" alt="Client1"></li>
+                <li><img src="img/logo2.png" alt="Client2"></li>
+                <li><img src="img/logo3.png" alt="Client3"></li>
+            </ul>
+        </section>
+        <section class="contact-skjema"> <!--Kode følger er basert på https://www.w3schools.com/howto/howto_css_contact_form.asp -->
+            <h3 id="contact-tittel">Contact us</h3>
+            <form>
+                <h4>Send us a message</h4>
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Ola Nordmann..">
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Branding..">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" style="width:fit-content"></textarea>
+
+                <input type="submit" value="Submit" id="message-knapp">
+            </form>
+            <span>
+                <h4>Contact information</h4>
+                <p>Lorem ipsum Donec mattis libero et ex consectetur. Lorem ipsum Donec mattis libero et ex consectetur. Lorem ipsum Donec mattis libero et ex 
+                    consectetur <br></br><br>B R A veien 4, 1757 Halden</br><br>69 60 80 00</br><br><a href="postmottak@hiof.no" id="skole-email">postmottak@hiof.no</a></br></p>
+            </span>
+        </section>
+        <section class="gmap"> <!--Kode eksempel hentet fra https://www.youtube.com/watch?v=4U_AAGHzTok&ab_channel=GreatStack -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8189.205861135019!2d11.355045614819339!3d59.12735646992023!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464412f0d344246f%3A0x4e47f19c99b253b1!2zSMO4Z3Nrb2xlbiBpIMOYc3Rmb2xk!5e0!3m2!1sno!2sno!4v1701216428063!5m2!1sno!2sno" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <article>
+            <a href="index.html"><img src="img/logo1.png" alt="Logo"></a>
+            <a id="copyright">Company copyright 2023</a>
+            <ul>
+                <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+        </article>
+    </footer>
+
+    <script>
+
+    </script>
+</body>
+</html>
